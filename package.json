@@ -1,13 +1,16 @@
 {
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.0.0",
+    "@strapi/plugin-graphql": "^4.0.5",
+    "fs-extra": "^10.0.0",
     "lodash.set": "^4.3.2",
-    "@strapi/strapi": "4.7.0-beta-0",
-    "@strapi/plugin-users-permissions": "4.7.0-beta-0",
-    "@strapi/plugin-i18n": "4.7.0-beta-0",
-    "better-sqlite3": "4.7.0-beta-0"
+    "mime-types": "^2.1.27",
+    "@strapi/strapi": "4.7.0-beta.0",
+    "@strapi/plugin-users-permissions": "4.7.0-beta.0",
+    "@strapi/plugin-i18n": "4.7.0-beta.0",
+    "better-sqlite3": "8.0.1"
   },
-  "name": "backend",
+
+  "name": "cloud-blog",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -22,9 +25,8 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "fad50402-5049-4422-891a-a04d03f7a1f3",
-    "template": "@strapi/template-corporate@^1.0.0",
-    "starter": "@strapi/starter-next-corporate"
+    "uuid": "9514a852-05bc-406e-8fff-a1171fc41525",
+    "template": "blog"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
@@ -32,3 +34,4 @@
   },
   "license": "MIT"
 }
+
